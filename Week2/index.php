@@ -22,6 +22,22 @@
     echo "<h1> Hello " . "$fname " . "$lname";
     ?>
 
+    <?php
+    $people = array(
+            'Hopper',
+            'Billie',
+            'Himan');
+    $person['first'] = 'Armaan';
+    $person['last'] = 'Malik';
+    
+   // Display the people array
+    echo "<h1>People:</h1>";
+      foreach ($people as $p) {
+    echo "<p>$p</p>";
+}
+
+    ?>
+
 
 </body>
 </html>
